@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leprechaun Cakes - Заказ тортов</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">Leprechaun Cakes</div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">Каталог</a>
+                    <a class="nav__link" href="#">Индивидуальный заказ</a>
+                    <a class="nav__link" href="#">Отзывы</a>
+                    <a class="nav__link" href="#">Контакты</a>
+                </nav>
+                <button class="btn">Заказать</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Авторские торты на заказ</h1>
+                <p class="hero__subtitle">9 различных видов на выбор</p>
+                <button class="btn btn--large">Выбрать торт</button>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <h2 class="section-title">Наши торты</h2>
+                <div class="catalog__items">
+                    <div class="catalog__item">
+                        <img src="images/cake-1.webp" alt="Торт 'Классика'" class="catalog__img">
+                        <h3 class="catalog__name">Классика</h3>
+                        <p class="catalog__price">от 1 500 ₽</p>
+                        <button class="btn btn--small">Заказать</button>
+                    </div>
+                    <!-- Остальные 8 тортов аналогичны -->
+                </div>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="container">
+                <h2 class="section-title">Индивидуальный заказ</h2>
+                <form class="order-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <textarea placeholder="Описание торта"></textarea>
+                    <button type="submit" class="btn">Отправить заявку</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">© 2023 Leprechaun Cakes</div>
+                <div class="footer__contacts">
+                    <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+                    <a href="mailto:order@leprechaun.cakes">order@leprechaun.cakes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
